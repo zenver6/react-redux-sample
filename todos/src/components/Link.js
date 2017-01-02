@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-const Lint = ({ active, children, onClick }) => {
+const Link = ({ active, children, onClick }) => {
   if(active) {
     return <span>{children}</span>
   }
